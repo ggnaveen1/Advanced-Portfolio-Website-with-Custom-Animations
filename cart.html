@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F0F8FF;
+        }
+        .header {
+            background-color: #4682B4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cart-header {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cart-table th, .cart-table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .cart-table th {
+            background-color: #5F9EA0;
+            color: white;
+        }
+        .cart-table td {
+            background-color: #F5F5F5;
+        }
+        .cart-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cart-actions button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4682B4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .cart-actions button:hover {
+            background-color: #3CB371;
+        }
+        .footer {
+            background-color: #4682B4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">NATIONAL INSTITUTE OF TECHNOLOGY WARANGAL<br>Online Book Store</div>
+
+    
+
+    <div class="container">
+        <div class="cart-header">Your Shopping Cart</div>
+        <table class="cart-table">
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Clean Code</td>
+                <td>Robert C. Martin</td>
+                <td>1</td>
+                <td>$40</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Design Patterns</td>
+                <td>Erich Gamma</td>
+                <td>2</td>
+                <td>350</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: right; font-weight: bold;">Grand Total</td>
+                <td>1100</td>
+            </tr>
+        </table>
+        <div class="cart-actions">
+            <button>Update Cart</button>
+            <button>Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <div class="footer"> 2025 NIT Warangal Online Book Store</div>
+</body>
+</html>

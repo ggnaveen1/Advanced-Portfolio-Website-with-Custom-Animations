@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalogue and Cart</title>
+    <style>
+        body 
+        {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA;
+        }
+        .header 
+        {
+            background-color: #66CDAA;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar 
+        {
+            display: flex;
+            justify-content: center;
+            background-color: #20B2AA;
+            padding: 10px;
+        }
+        .navbar a 
+        {
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            font-weight: bold;
+        }
+        .navbar a:hover 
+        {
+            background-color: #4682B4;
+            color: white;
+        }
+        .container
+        {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar 
+        {
+            width: 20%;
+            background-color: #FAFAD2;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .sidebar a 
+        {
+            text-decoration: none;
+            color: #00008B;
+            display: block;
+            margin: 10px 0;
+        }
+        .sidebar a:hover 
+        {
+            text-decoration: underline;
+        }
+        .content 
+        {
+            flex: 1;
+            background-color: #9370DB;
+            padding: 20px;
+            color: white;
+            font-size: 18px;
+        }
+        .footer 
+        {
+            background-color: #66CDAA;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .offer 
+        {
+            text-align: center;
+            background-color: #ADD8E6;
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">NATIONAL INSTITUTE OF TECHNOLOGY WARANGAL<br>Online Book Store</div>
+
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">LOGIN</a>
+        <a href="#">REGISTER</a>
+        <a href="#">CATALOGUE</a>
+        <a href="#">CART</a>
+    </div>
+
+    <div class="offer">50% Offer on each book</div>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="#">CSE</a>
+            <a href="#">ECE</a>
+            <a href="#">EEE</a>
+            <a href="#">MME</a>
+            <a href="#">CHEMICAL</a>
+            <a href="#">BIOTECH</a>
+        </div>
+
+        <div class="content">
+            <h2>Catalogue</h2>
+            <p>Explore a variety of books categorized by departments. Each book comes with a detailed description and a discount of 50%!</p>
+            <h2>Cart</h2>
+            <p>Your cart is currently empty. Add your favorite books to the cart and proceed to checkout.</p>
+        </div>
+    </div>
+
+    <div class="footer"> 2025 NIT Warangal Online Book Store</div>
+</body>
+</html>
